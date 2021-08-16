@@ -39,9 +39,10 @@ int main(void) {
   int size = sizeof(arr) / sizeof(arr[0]);
   int result = binarySearch(arr, temp, 0, size - 1);
   if (result == -1)
-    printf("Not Present");
+    cout<<"Not Present"<<endl;
   else
-    printf("Present %d", result+1);
+    cout<<"Present"<< result+1<<endl;
+  
   }
 
 }

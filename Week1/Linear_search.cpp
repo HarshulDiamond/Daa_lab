@@ -29,8 +29,8 @@ int main() {
       int result = linearsearch(arr, p, temp);
 
      if (result == -1) 
-      cout << "Not Present" ;
+      cout << "Not Present"<<endl ;
      else
-       cout << "Present " << result+1;
+       cout << "Present " << result+1<<endl;
 }
 }
